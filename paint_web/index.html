@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>お絵描きアプリ</title>
+        <style>
+            body {
+                margin :0;
+                position: relative;
+            }
+            #canvas {
+                background-color: #fff;
+            }
+            #btnClear {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 80px;
+                height: 50px;
+            }
+            #btnSave {
+                position: absolute;
+                top: 10px;
+                left: 90px;
+                width: 80px;
+                height: 50px;
+            }
+            #btnBack {
+                position: absolute;
+                top: 10px;
+                left: 170px;
+                width: 80px;
+                height: 50px;
+            }
+            #btnRed {
+                position: absolute;
+                top: 70px;
+                left: 10px;
+                width: 80px;
+                height: 50px;
+                background-color: red;
+            }
+            #btnBlue {
+                position: absolute;
+                top: 70px;
+                left: 90px;
+                width: 80px;
+                height: 50px;
+                background-color: blue;
+            }
+            #btnSuzuri {
+                position: absolute;
+                top: 10px;
+                left: 1500px;
+                width: 200px;
+                height: 400px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="btnClear">クリア</button>
+        <button id="btnSave">保存</button>
+        <button id="btnBack">戻る</button>
+        <button id="btnRed"></button>
+        <button id="btnBlue"></button>
+        <button id="btnSuzuri"></button>
+        <canvas id="canvas" width="500px" height="400px"></canvas>
+
+        <script src="app.js"></script>
+    </body>
+</html>
